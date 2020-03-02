@@ -20,6 +20,7 @@ public class TwoThreadsApp {
 }
 
 class Cat extends Thread{
+	@SuppressWarnings("unused")
 	private String name;
 	private Plate plate; 
 
@@ -43,6 +44,7 @@ class Cat extends Thread{
 }
 
 class Dog extends Thread{
+	@SuppressWarnings("unused")
 	private String name;
 	private Plate plate; 
 
